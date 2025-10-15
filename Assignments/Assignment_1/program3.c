@@ -1,0 +1,44 @@
+// Program to print 5 to 1 numbers on screen.
+
+////////////////////////////////////////////////////////////////////
+//
+//  Required Header file
+//
+////////////////////////////////////////////////////////////////////
+
+#include<stdio.h>                        // For Input Output
+
+////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Display
+//  Description :   to print 5 to 1 number
+//  Input :         Integer
+//  Output :        Integer
+//  Author :        Omkar Sachin Narlawar
+//  Date :          16/10/2025
+//
+////////////////////////////////////////////////////////////////////
+
+void Display()
+{
+    int i= 0;
+    i = 5;
+    while(i>=1)
+    {
+        printf("%d",i);
+        i--;                             // If we use here ++ then loop will run infinite.
+    }
+}
+
+////////////////////////////////////////////////////////////////////
+//
+//  Entry point function of the application
+//
+////////////////////////////////////////////////////////////////////
+
+int main()
+{
+    Display();
+
+    return 0;
+}
