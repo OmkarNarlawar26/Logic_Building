@@ -10,7 +10,7 @@
 
 ////////////////////////////////////////////////////////////////////////
 //
-//  Function Name   :   StrCpySmall
+//  Function Name   :   StrCpyToggle
 //  Description     :   used to copy the same string by toggling the characters
 //  Input           :   String
 //  Output          :   String
@@ -60,3 +60,4 @@ int main()
 
     return 0;
 }// End of Main
+
