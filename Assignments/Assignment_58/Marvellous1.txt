@@ -1,0 +1,16 @@
+Assignments
+Data Structures
+desktop.ini
+File_IO
+IntelliJ IDEA Community.lnk
+LB
+MongoDB Compass.lnk
+MySQL
+Postman.lnk
+PPA
+ServerClient_Project
+shutdown.lnk
+Spotify.lnk
+Spring_Boot
+Visual Studio Code.lnk
+WeIntern
