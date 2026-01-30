@@ -1,0 +1,26 @@
+tStream fiobj = new FileInputStream(FileName);
+
+        FileOutputStream foobj1 = new FileOutputStream("FirstHalf.txt");
+        FileOutputStream foobj2 = new FileOutputStream("SecondHalf.txt");
+
+        while((iRet = fiobj.read()) != -1)
+        {
+            if(iCount < half)
+            {
+                foobj1.write(iRet);
+            }
+            else
+            {
+                foobj2.write(iRet);
+            }
+
+            iCount++;
+        }
+
+        fiobj.close();
+        foobj1.close();
+        foobj2.close();
+
+        System.out.println("File splite into two halfs successfully");
+    }
+}
